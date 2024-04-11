@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 10px;
+    font-family: helvetica;
+}
+
+.card {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 70%;
+    margin: auto;
+}
+
+.content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.image {
+    margin: 10px;
+}
+
+.repoName {
+    color: #2e3235;
+    font-size: 40px;
+}
+
+.repoDesc {
+    color: #7b7d85;
+    margin-top: 30px;
+}
+
+.redRect {
+    background-color: #e44c27;
+    height: 10px;
+}
