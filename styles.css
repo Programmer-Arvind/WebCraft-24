@@ -11,30 +11,72 @@ body {
 .card {
     border: 2px solid black;
     border-radius: 10px;
-    width: 70%;
+    width: 60%;
     margin: auto;
 }
 
 .content {
     display: flex;
-    justify-content: space-evenly;
-}
-
-.image {
-    margin: 10px;
+    justify-content: center;
 }
 
 .repoName {
+    margin: 30px;
     color: #2e3235;
     font-size: 40px;
 }
 
 .repoDesc {
     color: #7b7d85;
-    margin-top: 30px;
+    font-size: 22px;
+    margin: 30px;
+}
+
+.image {
+    margin: 40px;
 }
 
 .redRect {
     background-color: #e44c27;
-    height: 10px;
+    height: 15px;
 }
+
+.repoStats {
+    display: flex;
+    margin: 40px;
+    gap: 20px;
+}
+
+.material-symbols-rounded {
+    font-size: 30px !important;
+    color: #7b7d85;
+}
+
+.stat {
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+}
+
+.statText {
+    margin: 10px;
+}
+
+.statValue {
+    font-size: 25px;
+}
+
+.statName {
+    color: #7b7d85;
+}
+
+.fork {
+    transform: scale(-1);
+}
+
+.githubLogo {
+    justify-content: flex-end;
+    margin-left: auto;
+    margin-top: 20px;
+}
+
